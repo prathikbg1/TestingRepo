@@ -15,7 +15,10 @@ public class FrameAssign {
 		
 		dr.findElement(By.linkText("Nested Frames")).click();
 		
-		System.out.println(dr.findElements(By.tagName("iframe")).size());
+		int size = dr.findElements(By.tagName("iframe")).size();
+		for(int i=0;i<size;i++) {
+			System.out.println(dr.findElements(By.tagName("iframe")).get(i).getText());
+		}
 		
 		dr.switchTo().frame("frame-top");
 		dr.switchTo().frame("frame-middle");
