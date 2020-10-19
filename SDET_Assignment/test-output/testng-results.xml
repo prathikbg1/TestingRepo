@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87430" started-at="2020-10-20T00:19:36 IST" finished-at="2020-10-20T00:21:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87430" started-at="2020-10-20T00:19:36 IST" finished-at="2020-10-20T00:21:03 IST">
+      <class name="TestCases.TripSelect">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:TestCases.TripSelect@5bc79255]" name="invokeBrowser" duration-ms="60382" started-at="2020-10-20T00:19:36 IST" finished-at="2020-10-20T00:20:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="flightSelect()[pri:1, instance:TestCases.TripSelect@5bc79255]" name="flightSelect" duration-ms="14124" started-at="2020-10-20T00:20:36 IST" finished-at="2020-10-20T00:20:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightSelect -->
+        <test-method status="PASS" signature="bookTicket()[pri:2, instance:TestCases.TripSelect@5bc79255]" name="bookTicket" duration-ms="3299" started-at="2020-10-20T00:20:50 IST" finished-at="2020-10-20T00:20:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="userDetails()[pri:3, instance:TestCases.TripSelect@5bc79255]" name="userDetails" duration-ms="9477" started-at="2020-10-20T00:20:54 IST" finished-at="2020-10-20T00:21:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+      </class> <!-- TestCases.TripSelect -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
