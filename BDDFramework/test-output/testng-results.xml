@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71938" started-at="2020-04-16T20:33:25 IST" finished-at="2020-04-16T20:34:37 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="myRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestNgRunner.myRunner@5a1c0542]" name="feature" class="TestNgRunner.myRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CRM Test" duration-ms="71938" started-at="2020-04-16T20:33:25 IST" finished-at="2020-04-16T20:34:37 IST">
+      <class name="TestNgRunner.myRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestNgRunner.myRunner@5a1c0542]" name="setUpClass" is-config="true" duration-ms="285" started-at="2020-04-16T20:33:25 IST" finished-at="2020-04-16T20:33:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestNgRunner.myRunner@5a1c0542]" name="feature" duration-ms="71430" started-at="2020-04-16T20:33:25 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-04-16T20:34:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestNgRunner.myRunner@5a1c0542]" name="tearDownClass" is-config="true" duration-ms="59" started-at="2020-04-16T20:34:37 IST" finished-at="2020-04-16T20:34:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestNgRunner.myRunner -->
+    </test> <!-- CRM Test -->
+  </suite> <!-- Suite -->
+</testng-results>
